@@ -1,0 +1,74 @@
+.sin {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+body{
+    background-size: 100%;
+    background-image: url('css1.jpeg');
+
+ 
+}
+h1{
+  font-family: 'Montserrat';
+  color:rgb(0, 0, 0);
+  text-shadow: white 1px 1px;
+  font-size: 4.3rem;
+}
+h2{
+  font-family: 'Open Sans bold';
+ 
+}
+.mo {
+  border-width: 5px;
+  border-style: dotted;
+  border-color: grey;
+  border-radius: 20px;
+  margin-left: 300px ;
+  margin-right:300px;
+  padding-top: 20px;
+  transition: border 300ms ease; 
+  padding-bottom: 20px;
+  padding-left: 350px;
+}
+
+.filelabel {
+  height: 100px;
+  width: 150px;
+  border: 3px dashed rgb(180, 173, 173);
+  border-radius: 35px;
+  display: inline-block;
+  padding: 50px;
+  transition: border 300ms ease;
+  cursor: pointer;
+  text-align: center;
+  margin: 0;
+}
+
+.filelabel i {
+  display: block;
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+
+.filelabel i,
+.filelabel .title {
+  align-items: center;
+  color: rgb(180, 173, 173);
+  transition: 200ms color;
+}
+
+.filelabel:hover {
+  border: 2px solid #020811;
+  align-items: center;
+}
+
+.filelabel:hover i,
+.filelabel:hover .title {
+  align-items: center;
+  color: #020811;
+}
+
+#FileInput {
+  display: none;
+}
